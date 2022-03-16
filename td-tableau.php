@@ -141,10 +141,12 @@
                             <div class="step-work mb-2">Parcourir ce tableau avec la boucle foreach et afficher les véhicules comme suit</div>
                             <div class="result-work">
                                 <?php
-                                    foreach($voitures as $voiture => $detail){
-                                        foreach ($detail as $x => $y){
-                                            echo $y." ";
-                                        }
+                                    foreach($voitures as $voiture){
+                                        echo $voiture['immatriculation'].'&nbsp;';
+                                        echo $voiture['marque'].'&nbsp;';
+                                        echo $voiture['type'].'&nbsp;';
+                                        echo $voiture['couleur'].'&nbsp;';
+                                        echo $voiture['prix'].'&nbsp;';
                                         echo '<br>';
                                     }
                                 ?>
