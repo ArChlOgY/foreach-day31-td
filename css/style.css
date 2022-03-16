@@ -1,0 +1,91 @@
+/* Cleanin' Bootstrap */
+
+*, ::before, ::after {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: black;
+    color : white;
+    font-size: large;
+}
+
+.school-img {
+    filter: brightness(100);
+    height: 250px;
+}
+
+hr {
+    margin: 0.3rem 0;
+}
+
+.title {
+    padding: 25px;
+    background-color: #ffffff24;
+    border-radius: 25px;
+}
+
+/* TD TABLEAU */
+
+.work-contents {
+    width: 70%;
+}
+
+ul {
+    margin-bottom: auto;
+}
+.enonce {
+    font-size: medium;
+    background-color: #ffffff24;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: unset;
+
+}
+
+.ennonce-title {
+    font-size: 30px;
+}
+
+.step-work {
+    font-style: italic;
+    font-size: medium;
+    border-bottom: 1px solid white;
+}
+.result-work {
+    background-color: #50464657;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    font-size: medium;
+}
+
+.fa-monkey {
+    color: #3AAF9F;
+}
+
+.enonce-top {
+    border-top: #3AAF9F 1px solid;
+}
+
+.footer {
+    padding: 25px;
+    background-color: #ffffff24;
+}
+
+footer i[class*="fa-"] {
+    font-size: 50px;
+}
+
+i[class*="fa-"]:after {
+    content: "\00B7";
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+i[class*="fa-github"]:after {
+    content: "";
+}
